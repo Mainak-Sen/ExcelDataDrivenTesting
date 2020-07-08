@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18116" started-at="2020-07-08T15:30:11Z" finished-at="2020-07-08T15:30:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18116" started-at="2020-07-08T15:30:11Z" finished-at="2020-07-08T15:30:29Z">
+      <class name="API_Test.LibrayAPI">
+        <test-method status="PASS" signature="add_book(java.util.HashMap)[pri:0, instance:API_Test.LibrayAPI@55a561cf]" name="add_book" duration-ms="15820" started-at="2020-07-08T15:30:12Z" data-provider="get_excel_Data" finished-at="2020-07-08T15:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Twenty thousand leagues under the sea, isbn=mtr, aisle=145, author=Jules Verne}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_book -->
+        <test-method status="PASS" signature="add_book(java.util.HashMap)[pri:0, instance:API_Test.LibrayAPI@55a561cf]" name="add_book" duration-ms="700" started-at="2020-07-08T15:30:28Z" data-provider="get_excel_Data" finished-at="2020-07-08T15:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Shonar Kella, isbn=ray, aisle=786, author=Satyajit Ray}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_book -->
+        <test-method status="PASS" signature="add_book(java.util.HashMap)[pri:0, instance:API_Test.LibrayAPI@55a561cf]" name="add_book" duration-ms="544" started-at="2020-07-08T15:30:29Z" data-provider="get_excel_Data" finished-at="2020-07-08T15:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Automator Mainak, isbn=bob, aisle=547, author=Baban}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_book -->
+      </class> <!-- API_Test.LibrayAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
